@@ -7,6 +7,12 @@ models:
         data_tests:
           - not_null
           - unique
+      - name: location_name
+        description: The location name.
+      - name: tax_rate
+        description: The tax_rate.
+      - name: opened_date
+        description: The opened_date.
 
 unit_tests:
   - name: test_does_location_opened_at_trunc_to_date
